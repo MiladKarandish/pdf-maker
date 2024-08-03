@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "dev": "SET NODE_ENV=development && nodemon",
-    "build": "SET PUPPETEER_SKIP_DOWNLOAD=true && tsc"
+    "build": "tsc"
   },
   "author": "Milad Karandish",
   "license": "ISC",
