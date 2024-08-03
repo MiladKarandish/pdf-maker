@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
-app.use('/pdf', pdfRoutes);
+app.use('/api/pdf', pdfRoutes);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
